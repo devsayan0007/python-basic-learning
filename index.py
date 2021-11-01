@@ -1,20 +1,10 @@
-# User Input & Type Casting in Python
-# Key Point 
-# i) input()
-# ii) int()
-# iii) float()
-# iv) eval()
+# How to Build a Simple Calculator in Python
+print('''
+      + Add
+      - Subtract
+      * Multiply
+      / Divide''')
+num1 = float(input("Enter 1st Value "))
+opr = input("Enter the Operator ")
+num2 = float(input("Enter 2nd Value "))
 
-a = input("Enter The Value ")
-print(a," ", type(a))
-
-b = int(input("Enter an integer value "))
-print(b," ", type(b))
-
-c = float(input("Enter a Float value "))
-
-print(c," ", type(c))
-
-d = eval(input("Enter anything "))
-
-print(d," ", type(d))
