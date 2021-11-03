@@ -9,12 +9,12 @@ num2 = float(input("Enter 2nd Value "))
 opr = input("Enter the Operator ")
 
 if opr=="+":
-  print(num1+num2)
+    print(num1+num2)
 elif opr=="-":
-  print(num1-num2)
+    print(num1-num2)
 elif opr=="*":
-  print(num1*num2)
+    print(num1*num2)
 elif opr=="/":
-  print(num1/num2)
+    print(num1/num2)
 else:
-  print("Invalid Option")
+    print("Invalid Option")
