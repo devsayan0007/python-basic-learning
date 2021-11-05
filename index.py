@@ -1,20 +1,37 @@
-# How to Build a Simple Calculator in Python
-print('''
-      + Add
-      - Subtract
-      * Multiply
-      / Divide''')
-num1 = float(input("Enter 1st Value "))
-num2 = float(input("Enter 2nd Value "))
-opr = input("Enter the Operator ")
+# Range () in Python
+# range(5)
+#start = 0
+#condition <5
+#increment 1
+# ------
+# range(1,5)
+#start = 1
+#condition <5
+#increment 1
+# ------
+# range(1,5,2)
+#start = 1
+#condition <5
+#increment 2
+# result 1,3
 
-if opr=="+":
-    print(num1+num2)
-elif opr=="-":
-    print(num1-num2)
-elif opr=="*":
-    print(num1*num2)
-elif opr=="/":
-    print(num1/num2)
-else:
-    print("Invalid Option")
+# ----------------
+# For Loop with Range () in Python
+for item in range(5):
+    print(item)
+print("---------------")
+for item in range(1,5):
+    print(item)
+print("---------------")
+for item in range(1,5,2):
+    print(item)
+print("---------------")
+for item in range(5):
+    print("welcome")   
+print("---------------")
+    # ----------------
+# 2 table
+for item in range(1,11):
+    print(2*item)
+a = 1
+print("---------------")
