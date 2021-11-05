@@ -1,37 +1,15 @@
-# Range () in Python
-# range(5)
-#start = 0
-#condition <5
-#increment 1
-# ------
-# range(1,5)
-#start = 1
-#condition <5
-#increment 1
-# ------
-# range(1,5,2)
-#start = 1
-#condition <5
-#increment 2
-# result 1,3
+#start
+#condition
+#Increment/Decrement
 
-# ----------------
-# For Loop with Range () in Python
-for item in range(5):
-    print(item)
-print("---------------")
-for item in range(1,5):
-    print(item)
-print("---------------")
-for item in range(1,5,2):
-    print(item)
-print("---------------")
-for item in range(5):
-    print("welcome")   
-print("---------------")
-    # ----------------
-# 2 table
-for item in range(1,11):
-    print(2*item)
+i = 1
+while i<=10:
+    print("welcome")
+    i=i+1
 
-print("---------------")
+a = 10
+while a>=1:
+    print(a,"hello")
+    a=a-1
+
+print(a)
