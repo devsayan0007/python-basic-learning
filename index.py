@@ -1,14 +1,14 @@
-import sqlite3
-con = sqlite3.Connection("./database/sqlite3.db")
-try:
-    con.execute('''
-               CREATE TABLE student (
-                 st_id BIGINT AUTO_INCREMENT PRIMARY KEY,
-                 st_name VARCHAR(50),
-                 st_class VACHAR(10),
-                 st_email VARCHAR(30)
-               )
-    ''')
-    print("CREATE TABLE SUCCESSFULLY")
-except:
-     print("ERROR TO CREATE TABLE")
+name = 'sayan'
+age = 26.50
+country = 'India'
+mybool = True
+
+# C-style Formating
+print('Hello I am %s and my age is %d, and I am from %s, '%(name,age,country))
+print('**********************')
+# f String
+print(f'Hello I am {name} and my age is {age}, and I am from {country}, Bool = {mybool}')
+print('/////////////////////////////////')
+
+print('Hello I am '+ str(name) +' and my age is '+ str(age) +', and I am from '+ str(country) +', Bool = '+ str(mybool))
+
